@@ -1,0 +1,22 @@
+div#openable{
+  height:0em;
+  transition: height 1s;
+}
+#openable.opened{
+  height:12em;
+}
+p#inset-para{
+  color: #32326f;
+  transition: color 0.5s cubic-bezier(0.4, 0, 1, 1);
+}
+p#inset-para.disappear{
+  color: white;
+}
+button#button-area{
+  transition: opacity 1s cubic-bezier(0.4, 0, 1, 1);
+  opacity:0;
+}
+
+button#button-area.disappear{
+    opacity:1;
+}
